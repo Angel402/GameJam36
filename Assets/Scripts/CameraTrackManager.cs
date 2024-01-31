@@ -40,6 +40,12 @@ public class CameraTrackManager : MonoBehaviour
         cameraStopPoints[currentPointIndex].Priority = 10;
     }
 
+    [Tooltip("Change how many seconds it takes to move between cameras")]
+    public void ChangeCameraSpeed(float seconds)
+    {
+        mainCam.m_DefaultBlend.m_Time = seconds;
+    }
+
     public void PreviousPoint()
     {
         cameraStopPoints[currentPointIndex].Priority = 0;
