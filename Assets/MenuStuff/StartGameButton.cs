@@ -10,4 +10,10 @@ public class StartGameButton : MonoBehaviour
     {
         SceneManager.LoadScene(gameScene);
     }
+
+    public void QuitGame()
+    {
+        Debug.Log("QUIT!");
+        Application.Quit();
+    }
 }
