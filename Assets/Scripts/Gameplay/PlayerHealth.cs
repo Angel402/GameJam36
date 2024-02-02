@@ -29,10 +29,18 @@ namespace Gameplay
         public void TakeDamage()
         {
             Debug.Log("take damage");
-            playerLight.intensity = healthBars[_currentHealthBar - 1].lightIntensity;
             healthBars[_currentHealthBar].healthImage.SetActive(false);
             _currentHealthBar--;
+            playerLight.intensity = healthBars[_currentHealthBar].lightIntensity;
             if (_currentHealthBar <= 0) Death();
+        }
+
+        public void RestoreHealth()
+        {
+            if (_currentHealthBar > healthBars.Count - 2) return;
+            _currentHealthBar++;
+            playerLight.intensity = healthBars[_currentHealthBar].lightIntensity;
+            healthBars[_currentHealthBar].healthImage.SetActive(true);
         }
 
         private void Death()

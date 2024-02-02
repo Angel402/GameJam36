@@ -1,28 +1,16 @@
-﻿using ServiceLocatorPath;
+﻿using System;
+using ServiceLocatorPath;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace Gameplay
 {
     public class DefaultEnemy : EnemyBehaviour
     {
-        public override void Attack()
+        private void Update()
         {
-            ServiceLocator.Instance.GetService<IPlayerHealth>().TakeDamage();
-        }
-
-        public override void GetDamage()
-        {
-            health--;
-            if (health <= 0)
-            {
-                Death();
-            }
-        }
-
-        public override void Death()
-        {
-            OnDeath?.Invoke();
-            gameObject.SetActive(false);
+            if(!IsActive) return;
+            CurrentPoints -= maxPoints * Time.deltaTime / attackSeconds;
         }
     }
 }

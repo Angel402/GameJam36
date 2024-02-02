@@ -30,6 +30,11 @@ public class InputManager : MonoBehaviour
                     Debug.Log("Tocado/clic en el enemigo: " + objetoTocado.name);
                     enemyBehaviour.GetDamage();
                 }
+                if (hit.transform.TryGetComponent(out InteractableObject interactableObject))
+                {
+                    Debug.Log("Tocado/clic en el objeto interactuable: " + objetoTocado.name);
+                    interactableObject.Interact();
+                }
             }
         }
     }

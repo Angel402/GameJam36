@@ -6,5 +6,6 @@
         /*
         void Death();
     */
+        void RestoreHealth();
     }
 }
