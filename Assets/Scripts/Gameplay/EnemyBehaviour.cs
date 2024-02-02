@@ -12,10 +12,18 @@ namespace Gameplay
         [SerializeField] protected float attackSeconds;
         protected float CurrentPoints;
         protected bool IsActive = false ;
+        private Animator _animator;
+
+        private void Awake()
+        {
+            _animator = GetComponentInChildren<Animator>();
+        }
 
         public virtual void Attack()
         {
+            if (!IsActive) return;
             ServiceLocator.Instance.GetService<IPlayerHealth>().TakeDamage();
+            _animator.SetBool("Attack", true);
             IsActive = false;
         }
         public virtual void GetDamage()
@@ -32,7 +40,8 @@ namespace Gameplay
         {
             IsActive = false;
             ServiceLocator.Instance.GetService<IScoreService>().AddScore(CurrentPoints);
-            gameObject.SetActive(false);
+            _animator.SetBool("Death", true);/*
+            gameObject.SetActive(false);*/
         }
 
         public virtual void Activate()
