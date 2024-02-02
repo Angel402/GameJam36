@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7db728b9-a551-4368-be30-d0af043b094e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/CastleLevel.playable" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/CastleLevel.playable.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam36/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam36/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MenuStuff/LitCandleBackground/Background.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MenuStuff/LitCandleBackground/Background.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Shotgun/Shooting.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Shotgun/Shooting.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CastleSceneAngel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CastleSceneAngel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/GunController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/GunController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
