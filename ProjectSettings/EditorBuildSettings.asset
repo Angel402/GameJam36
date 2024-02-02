@@ -10,8 +10,8 @@ EditorBuildSettings:
     guid: e31615f48f540c84abb2e6e1cf1a0fb6
   - enabled: 1
     path: Assets/Scenes/CastleScene.unity
-    guid: 40f38386598b2714b8b7521bab1825d1
+    guid: 0f60cfefbfea2fe47923c156c9d55680
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/SampleSceneAngel.unity
+    guid: ecb98156359586746ae9061bfc8758f1
   m_configObjects: {}

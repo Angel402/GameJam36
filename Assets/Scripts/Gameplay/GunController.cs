@@ -8,6 +8,7 @@ public class GunController : MonoBehaviour
     private void Start()
     {
         m_animator = GetComponent<Animator>();
+        m_animator.enabled = true;
     }
     private void Update()
     {
