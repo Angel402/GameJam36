@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7db728b9-a551-4368-be30-d0af043b094e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Gameplay 1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Gameplay 1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Gameplay.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Gameplay.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TimeLines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TimeLines/CastleScene.playable" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TimeLines/CastleScene.playable.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TimeLines/SampleSceneTimeline.playable" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TimeLines/SampleSceneTimeline.playable.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam36/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam36/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CameraTrackManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CameraTrackManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CastleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CastleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/EnemyBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/EnemyBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
